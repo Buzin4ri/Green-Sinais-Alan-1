@@ -210,3 +210,37 @@ body {
       transform: scale(1);
     }
   }
+  @media (max-width: 768px) {
+    .hero-section,
+    .container,
+    .row,
+    .col-md-6 {
+      text-align: center !important;
+      justify-content: center !important;
+      align-items: center !important;
+    }
+  
+    .hero-section .text-start {
+      text-align: center !important;
+    }
+  
+    .hero-section .btn {
+      display: inline-block;
+      margin: 20px auto 0;
+    }
+  
+    .hero-section img {
+      margin-top: 20px;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  @media (max-width: 768px) {
+    .d-flex.flex-md-row {
+      flex-direction: column !important;
+    }
+  
+    .gap-5 {
+      gap: 1rem !important;
+    }
+  }
